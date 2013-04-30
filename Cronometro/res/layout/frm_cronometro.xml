@@ -1,14 +1,103 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+	<LinearLayout
+    	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    	android:orientation="horizontal"
+    	android:layout_weight="1" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".Frm_Cronometro" />
+		<Button
+    		android:id="@+id/btnHoras"
+	        android:text="@string/btnValorInicial" 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"
+	        android:textSize="@string/btnNormalSize"/>
 
-</RelativeLayout>
+		<Button
+	    	android:id="@+id/btnMinutos"
+	        android:text="@string/btnValorInicial"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"/>
+
+		<Button
+	    	android:id="@+id/btnSegundos"
+	        android:text="@string/btnValorInicial"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"/>
+		
+		<Button
+	    	android:id="@+id/btnCentesimas"
+	        android:text="@string/btnValorInicial"
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1"/>
+	</LinearLayout>
+	
+
+	<LinearLayout
+    	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    	android:orientation="horizontal"
+    	android:layout_weight="1" >
+
+		<Button
+    		android:id="@+id/btnHoras"
+	        android:text="btnHoras" 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+
+		<Button
+	    	android:id="@+id/btnMinutos"
+	        android:text="btnMinutos"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+
+		<Button
+	    	android:id="@+id/btnSegundos"
+	        android:text="btnSegundos"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+	</LinearLayout>
+	
+	<LinearLayout
+    	android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+    	android:orientation="horizontal"
+    	android:layout_weight="1" >
+
+		<Button
+    		android:id="@+id/btnHoras"
+	        android:text="btnHoras" 
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+
+		<Button
+	    	android:id="@+id/btnMinutos"
+	        android:text="btnMinutos"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+
+		<Button
+	    	android:id="@+id/btnSegundos"
+	        android:text="btnSegundos"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"/>
+	</LinearLayout>
+				
+	 	
+	
+</TableLayout>
+
