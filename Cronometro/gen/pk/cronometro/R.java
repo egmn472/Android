@@ -10,34 +10,72 @@ package pk.cronometro;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int Azul01=0x7f04000c;
+        public static final int Blue01=0x7f04000a;
+        public static final int Blue02=0x7f04000b;
+        public static final int Naranja01=0x7f040008;
+        public static final int Naranja02=0x7f040009;
+        /**  COLOR CLEAR 
+         */
+        public static final int Rojo1=0x7f040004;
+        public static final int Rojo2=0x7f040005;
+        public static final int Verde01=0x7f040006;
+        public static final int Verde02=0x7f040007;
+        public static final int Violeta01=0x7f04000d;
+        public static final int blanco=0x7f040000;
+        public static final int gris01=0x7f040001;
+        public static final int gris02=0x7f040002;
+        public static final int negro=0x7f040003;
+    }
     public static final class drawable {
-        public static final int ic_action_search=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int drw_continue=0x7f020000;
+        public static final int drw_display=0x7f020001;
+        public static final int drw_lap=0x7f020002;
+        public static final int drw_start=0x7f020003;
+        public static final int drw_stop=0x7f020004;
+        public static final int ic_action_search=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
     }
     public static final class id {
-        public static final int btnCentesimas=0x7f070003;
-        public static final int btnHoras=0x7f070000;
-        public static final int btnMinutos=0x7f070001;
-        public static final int btnSegundos=0x7f070002;
-        public static final int menu_settings=0x7f070004;
+        public static final int ScrLista=0x7f08000c;
+        public static final int btnContinue=0x7f08000a;
+        public static final int btnLap=0x7f080009;
+        public static final int btnRestart=0x7f08000b;
+        public static final int btnStart=0x7f080007;
+        public static final int btnStop=0x7f080008;
+        public static final int lblCentesimas=0x7f080006;
+        public static final int lblHoras=0x7f080000;
+        public static final int lblMinutos=0x7f080002;
+        public static final int lblSegundos=0x7f080004;
+        public static final int lyBotones=0x7f08000d;
+        public static final int menu_settings=0x7f08000e;
+        public static final int txtDosPtosHora=0x7f080001;
+        public static final int txtDosPtosMinutos=0x7f080003;
+        public static final int txtDosPtosSegundos=0x7f080005;
     }
     public static final class layout {
         public static final int frm_cronometro=0x7f030000;
     }
     public static final class menu {
-        public static final int frm_cronometro=0x7f060000;
+        public static final int frm_cronometro=0x7f070000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int btnLargeSize=0x7f040006;
-        public static final int btnNormalSize=0x7f040005;
-        public static final int btnSmallSize=0x7f040004;
-        public static final int btnValorInicial=0x7f040003;
-        public static final int btnXLargeSize=0x7f040007;
-        public static final int menu_settings=0x7f040001;
-        public static final int title_activity_frm__cronometro=0x7f040002;
+        public static final int app_name=0x7f050000;
+        public static final int btnValorDosPuntos=0x7f050004;
+        public static final int btnValorInicial=0x7f050003;
+        public static final int btnValorPunto=0x7f050005;
+        public static final int lblContinue=0x7f050009;
+        public static final int lblLap=0x7f050008;
+        public static final int lblRestart=0x7f05000a;
+        /**  CAPTION BOTONES 
+         */
+        public static final int lblStart=0x7f050006;
+        public static final int lblStop=0x7f050007;
+        public static final int menu_settings=0x7f050001;
+        public static final int title_activity_frm__cronometro=0x7f050002;
     }
     public static final class style {
-        public static final int AppTheme=0x7f050000;
+        public static final int AppTheme=0x7f060000;
     }
 }

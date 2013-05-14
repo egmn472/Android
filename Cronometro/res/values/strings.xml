@@ -5,10 +5,17 @@
     <string name="title_activity_frm__cronometro">Cronometro</string>
     
     <string name="btnValorInicial">00</string>
+    <string name="btnValorDosPuntos">:</string>
+    <string name="btnValorPunto">.</string>
     
-    <string name="btnSmallSize">  20dp</string>
-    <string name="btnNormalSize"> 40dp</string>
-    <string name="btnLargeSize">  60dp</string>
-    <string name="btnXLargeSize"> 80dp</string>
+ 
+    <!-- CAPTION BOTONES -->
+    <string name="lblStart">Inicio</string>
+    <string name="lblStop">Parar</string>
+    <string name="lblLap">Vuelta</string>
+    <string name="lblContinue">Continuar</string>
+    <string name="lblRestart">Reiniciar</string>
+    
+    
 
 </resources>

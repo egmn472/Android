@@ -9,8 +9,8 @@
     
    <!--DISPLAY -->
 	<LinearLayout
-    	android:layout_width="match_parent"
-	android:layout_height="match_parent"
+	    android:layout_width="match_parent"
+		android:layout_height="match_parent"
     	android:orientation="horizontal"
     	android:layout_weight="33" >
 		
@@ -99,70 +99,67 @@
 	
 	<!--OPCIONES DE BOTONES -->
 	<LinearLayout
+	    android:id="@+id/lyBotones"
     	android:layout_width="match_parent"
 	    android:layout_height="match_parent"
     	android:orientation="horizontal"
     	android:layout_weight="43" >
 		
 	    <Button
-		    android:id="@+id/btnStart"
-		    android:layout_width="0dp"
-		    android:layout_weight="1"
-		    android:layout_height="match_parent"
-		    android:background="@drawable/drw_start"
-		    android:text="@string/lblStart"
-		    android:textColor="@color/blanco"
-		    android:textStyle="bold" 
-		    android:textSize="30sp"
-		    android:onClick="onbtnStart"/>
+	        android:id="@+id/btnStart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/drw_start"
+	        android:onClick="onbtnStart"
+	        android:text="@string/lblStart"
+	        android:textColor="@color/negro"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
 	    
 	    <Button
-		    android:id="@+id/btnStop"
-		    android:layout_width="0dp"
-		    android:layout_weight="1"
-		    android:layout_height="match_parent"
-		    android:background="@drawable/drw_stop"
-		    android:text="@string/lblStop"
-		    android:textColor="@color/blanco"
-		    android:textStyle="bold" 
-		    android:textSize="30sp"
-		    android:onClick="onbtnStop"/>
+	        android:id="@+id/btnStop"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/drw_stop"
+	        android:onClick="onbtnStop"
+	        android:text="@string/lblStop"
+	        android:textColor="@color/negro"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
 	    
 	    <Button
-		    android:id="@+id/btnLap"
-		    android:layout_width="0dp"
-		    android:layout_weight="1"
-		    android:layout_height="match_parent"
-		    android:background="@drawable/drw_lap"
-		    android:text="@string/lblLap"
-		    android:textColor="@color/blanco"
-		    android:textStyle="bold" 
-		    android:textSize="30sp"
-		    android:onClick="onbtnLap"/>
+	        android:id="@+id/btnLap"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/drw_lap"
+	        android:onClick="onbtnLap"
+	        android:text="@string/lblLap"
+	        android:textColor="@color/negro"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
 	    
         <Button
-		    android:id="@+id/btnContinue"
-		    android:layout_width="0dp"
-		    android:layout_weight="1"
-		    android:layout_height="match_parent"
-		    android:background="@drawable/drw_continue"
-		    android:text="@string/lblContinue"
-		    android:textColor="@color/blanco"
-		    android:textStyle="bold" 
-		    android:textSize="30sp"
-		    android:onClick="onbtnContinue"/>
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drw_continue"
+            android:onClick="onbtnContinue"
+            android:text="@string/lblContinue"
+            android:textColor="@color/negro"
+            android:textSize="25sp"
+            android:textStyle="bold" />
 	
 	    <Button
-		    android:id="@+id/btnRestart"
-		    android:layout_width="0dp"
-		    android:layout_weight="1"
-		    android:layout_height="match_parent"
-		    android:background="@drawable/drw_start"
-		    android:text="@string/lblRestart"
-		    android:textColor="@color/blanco"
-		    android:textStyle="bold" 
-		    android:textSize="30sp"
-		    android:onClick="onbtnRestart"/>
+	        android:id="@+id/btnRestart"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent"
+	        android:background="@drawable/drw_start"
+	        android:onClick="onbtnRestart"
+	        android:text="@string/lblRestart"
+	        android:textColor="@color/negro"
+	        android:textSize="25sp"
+	        android:textStyle="bold" />
+
 	</LinearLayout>
 	
 	<!--GRILLA -->
